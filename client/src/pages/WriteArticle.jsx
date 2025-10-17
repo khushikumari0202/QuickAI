@@ -1,4 +1,4 @@
-import { Edit, Edit2, Sparkles } from 'lucide-react'
+import { Edit, Sparkles } from 'lucide-react'
 import React, { useState } from 'react'
 
 const WriteArticle = () => {
@@ -19,7 +19,7 @@ const WriteArticle = () => {
     <div className='h-full overflow-y-scroll p-6 flex items-start flex-wrap
     gap-4 text-slate-700'>
       {/* left col */}
-      <form onClick={onSubmitHandler} className='w-full max-w-lg p-4 bg-white rounded-bg-border border-gray-200'>
+      <form onSubmit={onSubmitHandler} className='w-full max-w-lg p-4 bg-white rounded-bg-border border-gray-200'>
         <div>
           <Sparkles className='w-5 text-[#4a7aff]' />
           <h1 className='text-lg font-semibold'>Article Configuration</h1>
@@ -50,7 +50,7 @@ const WriteArticle = () => {
         <div className='flex-1 flex justify-center items-center'>
           <div className='text-sm flex flex-col items-center gap-5 text-gray-400'>
             <Edit className='w-5 h-5 text-[#4a7aff]' />
-            <p>No article generated yet. Start by entering a topic and clicking on "Generate Article"</p>
+            <p>Start by entering a topic and clicking on "Generate Article"</p>
           </div>
         </div>
           
