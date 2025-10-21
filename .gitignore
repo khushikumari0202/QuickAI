@@ -1,0 +1,4 @@
+# Ignore all dotenv files
+.env
+client/.env
+server/.env
