@@ -44,7 +44,9 @@ npm install
 ```
 3. Environment Variables
 Create a .env file in the client/ directory and add your Clerk publishable key:
+```
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
+```
 
 5. Run the Application
 ```
@@ -95,4 +97,11 @@ quickai/
 - Database hosted on Neon.tech
 - Authentication and billing handled by Clerk
 
+## 🙋‍♀️ Author & Acknowledgements
 
+* **Khushi Kumari**
+
+  * LinkedIn: [Khushi Kumari](https://www.linkedin.com/in/khushi-kumari-582a02241/)
+  * GitHub: [@khushikumari0202](https://github.com/khushikumari0202)
+
+If you like this project, please **⭐ Star** this repository, contribute via pull requests, or share it!
