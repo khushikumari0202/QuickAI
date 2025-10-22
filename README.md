@@ -3,14 +3,12 @@ A full‑featured AI SaaS application built using PostgreSQL, Express, React, an
 This app offers a suite of AI‑powered tools for text generation, image creation, and document analysis — integrated with secure authentication, subscription billing, and a cloud database.
 
 ## Features
----
 - Authentication & Billing
 - User authentication with Clerk (email and Google Sign‑in)
 - Profile & account management
 - Subscription‑based premium access using Clerk Billing
 
 ## Core AI Tools
----
 **Article Generator** – Create AI‑generated articles based on topic & length
 **Blog Title Generator** – Generate blog titles from keywords and categories
 **Image Generator** – Create AI images from text prompts (premium users)
@@ -19,14 +17,12 @@ This app offers a suite of AI‑powered tools for text generation, image creatio
 **Resume Analyzer** – Upload a resume to receive detailed AI‑based review
 
  ## Additional Features
- ---
 - Creation history dashboard
 - Community page with public shared images & like functionality
 - Responsive design built with Vite + React + TailwindCSS
 - Assets stored in a serverless PostgreSQL database (Neon)
 
 ## Tech Stack
----
 **Frontend:-**	React.js (Vite) + Tailwind CSS
 **Backend:-**	Node.js + Express.js
 **Database:-**	Neon Serverless PostgreSQL
@@ -35,8 +31,7 @@ This app offers a suite of AI‑powered tools for text generation, image creatio
 **Icons:-**	Lucid React Icons
 **Fonts:-**	Google Fonts (Outfit)
 
-**Installation & Setup**
----
+## Installation & Setup
 1. Clone the Repository
 ```
 git clone https://github.com/khushikumari0202/QuickAI
@@ -49,16 +44,16 @@ npm install
 ```
 3. Environment Variables
 Create a .env file in the client/ directory and add your Clerk publishable key:
-
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-4. Run the Application
+
+5. Run the Application
 ```
 npm run dev
 Frontend runs at:
 http://localhost:5173
 ```
 
-Folder Structure
+## Folder Structure
 ---
 ```
 quickai/
@@ -78,33 +73,26 @@ quickai/
     ├── models/
     └── package.json
 ```
-**Key Packages**
----
+## Key Packages
 
 **Frontend**
+- react
+- react-router-dom
+- tailwindcss
+- lucid-react
+- @clerk/clerk-react
 
-```
-react
-react-router-dom
-tailwindcss
-lucid-react
-@clerk/clerk-react
-```
 
 **Backend**
-```
-express
-pg (PostgreSQL)
-dotenv
-cors
-axios
-```
+- express
+- pg (PostgreSQL)
+- dotenv
+- cors
+- axios
 
 **Deployment**
-```
-Deployed for free using Vercel
-Database hosted on Neon.tech
-Authentication and billing handled by Clerk
-```
+- Deployed for free using Vercel
+- Database hosted on Neon.tech
+- Authentication and billing handled by Clerk
 
-ded for learning purposes.
+
