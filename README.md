@@ -23,13 +23,13 @@ This app offers a suite of AI‑powered tools for text generation, image creatio
 - Assets stored in a serverless PostgreSQL database (Neon)
 
 ## Tech Stack
-**Frontend:-**	React.js (Vite) + Tailwind CSS
-**Backend:-**	Node.js + Express.js
-**Database:-**	Neon Serverless PostgreSQL
-**Authentication & Billing:-**	Clerk
-**Deployment:-**	Vercel
-**Icons:-**	Lucid React Icons
-**Fonts:-**	Google Fonts (Outfit)
+- **Frontend:-**	React.js (Vite) + Tailwind CSS
+- **Backend:-**	Node.js + Express.js
+- **Database:-**	Neon Serverless PostgreSQL
+- **Authentication & Billing:-**	Clerk
+- **Deployment:-**	Vercel
+- **Icons:-**	Lucid React Icons
+- **Fonts:-**	Google Fonts (Outfit)
 
 ## Installation & Setup
 1. Clone the Repository
