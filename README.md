@@ -9,12 +9,12 @@ This app offers a suite of AI‑powered tools for text generation, image creatio
 - Subscription‑based premium access using Clerk Billing
 
 ## Core AI Tools
-**Article Generator** – Create AI‑generated articles based on topic & length
-**Blog Title Generator** – Generate blog titles from keywords and categories
-**Image Generator** – Create AI images from text prompts (premium users)
-**Background Remover** – Remove image backgrounds
-**Object Remover** – Remove selected objects from images
-**Resume Analyzer** – Upload a resume to receive detailed AI‑based review
+1. **Article Generator** – Create AI‑generated articles based on topic & length
+2. **Blog Title Generator** – Generate blog titles from keywords and categories
+3. **Image Generator** – Create AI images from text prompts (premium users)
+4. **Background Remover** – Remove image backgrounds
+5. **Object Remover** – Remove selected objects from images
+6. **Resume Analyzer** – Upload a resume to receive detailed AI‑based review
 
  ## Additional Features
 - Creation history dashboard
