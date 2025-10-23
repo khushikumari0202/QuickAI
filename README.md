@@ -2,7 +2,7 @@
 A full‑featured AI SaaS application built using PostgreSQL, Express, React, and Node.js (PERN stack).
 This app offers a suite of AI‑powered tools for text generation, image creation, and document analysis — integrated with secure authentication, subscription billing, and a cloud database.
 
-## Features
+## 🚀 Features
 - Authentication & Billing
 - User authentication with Clerk (email and Google Sign‑in)
 - Profile & account management
@@ -22,7 +22,7 @@ This app offers a suite of AI‑powered tools for text generation, image creatio
 - Responsive design built with Vite + React + TailwindCSS
 - Assets stored in a serverless PostgreSQL database (Neon)
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **Frontend:-**	React.js (Vite) + Tailwind CSS
 - **Backend:-**	Node.js + Express.js
 - **Database:-**	Neon Serverless PostgreSQL
@@ -31,7 +31,7 @@ This app offers a suite of AI‑powered tools for text generation, image creatio
 - **Icons:-**	Lucid React Icons
 - **Fonts:-**	Google Fonts (Outfit)
 
-## Installation & Setup
+## 🚀 Installation & Setup
 1. Clone the Repository
 ```
 git clone https://github.com/khushikumari0202/QuickAI
@@ -75,7 +75,7 @@ quickai/
     ├── models/
     └── package.json
 ```
-## Key Packages
+## ⚡Key Packages
 
 **Frontend**
 - react
