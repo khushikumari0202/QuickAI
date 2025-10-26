@@ -49,7 +49,7 @@ Create a .env file in the client/ directory and add your Clerk publishable key:
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
 ```
 
-5. Run the Application
+4. Run the Application
 ```
 npm run dev
 Frontend runs at:
