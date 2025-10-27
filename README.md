@@ -52,7 +52,9 @@ VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
 4. Run the Application
 ```
 npm run dev
+```
 Frontend runs at:
+```
 http://localhost:5173
 ```
 
