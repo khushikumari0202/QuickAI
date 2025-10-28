@@ -1,4 +1,4 @@
- **🌠 QuickAI – Full Stack AI SaaS App **
+ 🌠 **QuickAI – Full Stack AI SaaS App **
  ---
 
 A full‑featured AI SaaS application built using PostgreSQL, Express, React, and Node.js (PERN Stack).
