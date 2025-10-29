@@ -19,10 +19,10 @@ This app offers a suite of AI‑powered tools for text generation, image creatio
 6. **Resume Analyzer** – Upload a resume to receive detailed AI‑based review
 
  ## Additional Features
--- Creation history dashboard
--- Community page with public shared images & like functionality
--- Responsive design built with Vite + React + TailwindCSS
--- Assets stored in a serverless PostgreSQL database (Neon)
+- Creation history dashboard
+- Community page with public shared images & like functionality
+- Responsive design built with Vite + React + TailwindCSS
+- Assets stored in a serverless PostgreSQL database (Neon)
 
 ## 🛠️ Tech Stack
 - **Frontend:-**	React.js (Vite) + Tailwind CSS
