@@ -1,4 +1,5 @@
-## QuickAI – Full Stack AI SaaS App 
+ ## 🌠 QuickAI – Full Stack AI SaaS App 
+ 
 
 A full‑featured AI SaaS application built using PostgreSQL, Express, React, and Node.js (PERN Stack).
 This app offers a suite of AI‑powered tools for text generation, image creation, and document analysis — integrated with secure authentication, subscription billing, and a cloud database.
@@ -49,10 +50,12 @@ Create a .env file in the client/ directory and add your Clerk publishable key:
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
 ```
 
-5. Run the Application
+4. Run the Application
 ```
 npm run dev
+```
 Frontend runs at:
+```
 http://localhost:5173
 ```
 
