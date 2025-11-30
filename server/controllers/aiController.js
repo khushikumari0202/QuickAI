@@ -4,9 +4,10 @@ import { clerkClient } from "@clerk/express";
 import axios from "axios";
 import { v2 as cloudinary } from 'cloudinary';
 import fs from 'fs';
+
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
-const pdf = require("pdf-parse");
+const pdf = require("pdf-parse");   
 
 
 const AI = new OpenAI({
@@ -134,7 +135,7 @@ export const generateImage = async (req, res) => {
 export const RemoveImageBackground = async (req, res) => {
     try {
         const {userId} = req.auth();
-        const {image} = req.file;
+        const image = req.file;
         const plan = req.plan;
 
         if(plan !== 'premium'){
@@ -167,7 +168,7 @@ export const RemoveImageObject = async (req, res) => {
     try {
         const {userId} = req.auth();
         const {object} = req.body;
-        const {image} = req.file;
+        const image = req.file;
         const plan = req.plan;
 
         if(plan !== 'premium'){
