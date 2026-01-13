@@ -7,7 +7,7 @@ import fs from 'fs';
 
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
-const pdf = require("pdf-parse");   
+const pdf = require("pdf-parse");
 
 
 const AI = new OpenAI({
@@ -34,13 +34,13 @@ export const generateArticle = async (req, res) => {
                     content: prompt,
                 },
             ],
-            temperature: 0.7,
+                temperature: 0.7,
             max_tokens: length,
         });
 
         const content = response.choices[0].message.content;
 
-        await sql`INSERT INTO creations (user_id, prompt, content, type) 
+        await sql`INSERT INTO creations (user_id, prompt, content, type)
             VALUES (${userId}, ${prompt}, ${content}, 'article')`;
 
         if(plan !== 'premium'){
@@ -74,7 +74,7 @@ export const generateBlogTitle = async (req, res) => {
         const response = await AI.chat.completions.create({
             model: "gemini-2.0-flash",
             messages: [{ role: "user", content: prompt }],
-            temperature: 0.7,
+                temperature: 0.7,
             max_tokens: 100,
         });
 
@@ -223,7 +223,7 @@ export const resumeReview = async (req, res) => {
                     content: prompt,
                 },
             ],
-            temperature: 0.7,
+                temperature: 0.7,
             max_tokens: 1000,
         });
 
